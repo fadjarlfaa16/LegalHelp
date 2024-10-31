@@ -51,7 +51,7 @@ body, html {
     color: black;
     border-radius: 10px;
     width: 50%;
-    padding: 50px;
+    padding: 30px;
 }
 
 .reg label {
@@ -133,4 +133,20 @@ a {
 
 .submit-btn:hover {
     background-color: #5f9188;
+}
+
+.reg-btn {
+    width: 100%;
+    padding: 12px;  
+    background-color: white;
+    color: #699E95;
+    border: 2px solid #699E95;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.reg-btn:hover {
+    background-color: rgb(238, 236, 236);
 }

@@ -11,4 +11,9 @@ $(document).ready(function() {
         $("#reg").hide();
         $('#in').fadeIn();
     });
+
+    $("#reg-btn").click(function() {
+        $("#in").hide();
+        $("#reg").fadeIn();
+    });
 });

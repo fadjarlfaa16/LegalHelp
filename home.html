@@ -5,33 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LegalHelp</title>
     <link rel="stylesheet" href="pages/css/homestyle.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
   <nav class="navbar fixed-top" style="background-color: #387478;">
     <div class="d-flex justify-content-between" style="width: 100%;">
-        <div class="d-flex align-items-center">
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="border: none; margin-left: 1rem; color: #387478;">
-                <span class="navbar-toggler-icon navbar-dark"></span>
-            </button>
-            <h2 href="#">LegalHelp.</h2>
-        </div>
-        <div class="listNav align-items-center">
-            <ul class="navbar-nav ms-auto list-group-horizontal navbar-dark">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Consult</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Forum</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">LegalPedia</a>
-                </li>
-            </ul>
-        </div>
+      <div class="d-flex align-items-center">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="border: none; margin-left: 1rem; color: #387478;">
+          <span class="navbar-toggler-icon navbar-dark"></span>
+        </button>
+        <h2 href="#">LegalHelp.</h2>
+      </div>
+      <div class="listNav align-items-center">
+        <ul class="navbar-nav ms-auto list-group-horizontal navbar-dark">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Consult</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Forum</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">LegalPedia</a>
+          </li>
+        </ul>
+      </div>
       <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
@@ -45,28 +45,163 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
           </ul>
-          <form class="d-flex mt-3" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </div>
   </nav>
+  <div id="carouselExampleCaptions" class="carousel slide" style="margin-top: 60px;" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <img src="components/img/background1.webp" class="d-block w-100" alt="Berita1">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h1>News Headline 1</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="components/img/background1.webp" class="d-block w-100" alt="Berita2">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h1>News Headline 2</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="components/img/background1.webp" class="d-block w-100" alt="Berita3">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h1>News Headline 3</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="components/img/background1.webp" class="d-block w-100" alt="Berita4">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h1>News Headline 4</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="components/img/background1.webp" class="d-block w-100" alt="Berita5">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h1>News Headline 5</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="text-center">
+    <h2 style="margin-top: 2rem;">Weekly Top Legal Consultant</h2>
+    <div class="container" style="margin-top: 3.5rem;">
+      <div class="row justify-content-evenly">
+        <div class="col-4 text-center">
+          <h2 class="text-start">#2</h2>
+          <div class="isiKonsul">
+              <img src="components/img/FH.jpeg" alt="Fadhil-Hasibuan" class="img-thumbnail rounded-circle" style="height: 200px; width: 200px;">
+              <h3>Fadhil Hasibuan</h3>
+              <p class="text-body-secondary">
+                Experienced 30+ years lawyer | Graduated from Harvard Law School | Crazy Rich Indramayu | 21 years old
+              </p>
+              <button type="button" class="btn btn-outline-success">
+                Consult Now!
+            </button>
+          </div>
+        </div>
+        <div class="col-4 text-center">
+          <h2 class="text-start">#1</h2>
+          <div class="isiKonsul">
+              <img src="components/img/ZPH.jpeg" alt="Fadhil-Hasibuan" class="img-thumbnail rounded-circle" style="height: 250px; width: 250px;">
+              <h3>Zaqie Paris Hutapea</h3>
+              <p class="text-body-secondary">
+                Experienced 30+ years lawyer | Graduated from Harvard Law School | Crazy Rich Indramayu | 21 years old
+              </p>
+              <button type="button" class="btn btn-outline-success">
+                Consult Now!
+            </button>
+          </div>
+        </div>
+        <div class="col-4 text-center">
+          <h2 class="text-start">#3</h2>
+          <div class="isiKonsul">
+              <img src="components/img/FN.jpeg" alt="Fadhil-Hasibuan" class="img-thumbnail rounded-circle" style="height: 200px; width: 200px;">
+              <h3>Fadjar Nasution</h3>
+              <p class="text-body-secondary">
+                Experienced 30+ years lawyer | Graduated from Harvard Law School | Crazy Rich Indramayu | 21 years old
+              </p>
+              <button type="button" class="btn btn-outline-success">
+                Consult Now!
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center" style="margin-top: 3rem;">
+      <a href="#" class="custom-link fw-semibold fs-5" style="text-decoration: none;">Discover More ➜</a>
+  </div>
+  </div>
+  <div class="container" style="margin-top: 6rem;">
+    <h2 class="fw-bold text-center" style="margin-bottom: 2.5rem;">#TRENDINGTOPICS</h2>
+    <div class="trending-content">
+        <div class="trending-card">
+            <div class="d-flex align-items-start">
+                <div class="profile-img me-3"></div>
+                <div>
+                    <h5 class="mb-1">Fikri si ramah tamah</h5>
+                    <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,nostrud... <a href="#" class="more-link">more</a></p>
+                    <div class="stats">
+                        <span class="me-3">177 shares</span>
+                        <span class="me-3">6354 comments</span>
+                        <span>321737652 likes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="trending-card">
+            <div class="d-flex align-items-start">
+                <div class="profile-img me-3"></div>
+                <div>
+                    <h5 class="mb-1">Rayn si Fast Learner</h5>
+                    <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,nostrud... <a href="#" class="more-link">more</a></p>
+                    <div class="stats">
+                        <span class="me-3">177 shares</span>
+                        <span class="me-3">6354 comments</span>
+                        <span>321737652 likes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="trending-card">
+            <div class="d-flex align-items-start">
+                <div class="profile-img me-3"></div>
+                <div>
+                    <h5 class="mb-1">Agung si Soft Spoken</h5>
+                    <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,nostrud... <a href="#" class="more-link">more</a></p>
+                    <div class="stats">
+                        <span class="me-3">177 shares</span>
+                        <span class="me-3">6354 comments</span>
+                        <span>321737652 likes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>

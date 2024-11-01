@@ -15,3 +15,43 @@ nav h2 {
     font-weight: 500;
     font-size: 18px;
 }
+
+.carousel-inner h1 {
+    font-size: 4rem;
+}
+
+.isiKonsul img, .isiKonsul h3, .isiKonsul p, .isiKonsul button {
+    margin-top: 10px;
+}
+
+.trending-card {
+    border: 3px solid #387478;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+
+.trending-card:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #e9ecef;
+}
+
+.stats {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.more-link {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.more-link:hover {
+    text-decoration: underline;
+}

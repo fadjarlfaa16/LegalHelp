@@ -1,0 +1,21 @@
+.content-forum {
+    margin-top: 90px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+.keywords {
+    color: #555;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.post-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+

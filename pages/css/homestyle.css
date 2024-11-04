@@ -29,6 +29,7 @@ nav h2 {
     border-radius: 12px;
     margin-bottom: 1.5rem;
     padding: 1rem;
+    display: flex;
 }
 
 .trending-card:hover {
@@ -213,4 +214,18 @@ nav h2 {
 .chat-list::-webkit-scrollbar-thumb:hover,
 .messages-container::-webkit-scrollbar-thumb:hover {
     background: #a8a8a8;
+}
+
+footer {
+    background-color: #387478;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin-inline: 10px;
 }

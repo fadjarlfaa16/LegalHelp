@@ -16,4 +16,10 @@ $(document).ready(function() {
         $("#in").hide();
         $("#reg").fadeIn();
     });
+    
+    $("#submit-reg").click(function(){
+        $("#reg").hide();
+        $("#in").fadeIn();
+    });
+
 });

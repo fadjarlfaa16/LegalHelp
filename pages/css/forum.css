@@ -15,6 +15,11 @@
     text-decoration: none;
 } */
 
+.keywords li {
+    margin-left: -2rem;
+    list-style: none;
+}
+
 .content-forum {
     margin-top: 90px;
 }

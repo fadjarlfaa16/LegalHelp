@@ -216,6 +216,13 @@ nav h2 {
     background: #a8a8a8;
 }
 
+/* Content */
+.content-home {
+    margin: auto;
+    width: 75%;
+}
+
+
 footer {
     background-color: #387478;
     color: white;

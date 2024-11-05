@@ -1,0 +1,63 @@
+/* Carousel */
+.carousel-inner h1 {
+    font-size: 4rem;
+}
+
+.isiKonsul img, .isiKonsul h3, .isiKonsul p, .isiKonsul button {
+    margin-top: 10px;
+}
+
+.below-carousel {
+    padding: 0 10rem;
+}
+
+/* Content */
+/* Isi konten untuk page Home.html */
+.content-home {
+    margin: auto;
+    width: 80%;
+    background-color: #fff;
+}
+
+
+footer {
+    background-color: #387478;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin-inline: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #judulNav h2 {
+        font-size: 0;
+    }
+    .content-home {
+        width: 100%;
+    }
+    /* .caption-on-carousel h1{
+        font-size: 10px;
+    } */
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 601px) {
+    .content-home {
+        width: 90%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .content-home {
+        width: 80%;
+    }
+}

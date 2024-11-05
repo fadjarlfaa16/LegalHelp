@@ -1,0 +1,21 @@
+nav h2 {
+    color: white; 
+    font-weight: 700; 
+    font-style: italic; 
+    margin-left: 1rem;
+}
+
+.listNav {
+    margin-right: 2rem;
+}
+
+.listNav a {
+    margin-left: 25px;
+
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#judulNav {
+    width: 100%;
+}

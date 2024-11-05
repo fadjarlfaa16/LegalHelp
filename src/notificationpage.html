@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pages/css/notification.css">
+    <link rel="stylesheet" href="pages/css/addition/navbar.css">
+    <link rel="stylesheet" href="pages/css/addition/sliding-menu.css">
+    <link rel="stylesheet" href="../bootsrap/css/bootstrap.css">
+    <script src="../bootsrap/js/bootstrap.js"></script>
+</head>
+<body>
+    <nav class="navbar fixed-top" style="background-color: #387478;">
+        <div class="d-flex justify-content-between" style="width: 100%;">
+          <div class="d-flex align-items-center">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="border: none; margin-left: 1rem; color: #387478;">
+              <span class="navbar-toggler-icon navbar-dark"></span>
+            </button>
+            <h2 class="text-white">LegalHelp.</h2>
+          </div>
+          <div class="listNav align-items-center">
+            <ul class="navbar-nav ms-auto list-group-horizontal navbar-dark">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="consult.html">Consult</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="forum.html">Forum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">LegalPedia</a>
+              </li>
+            </ul>
+          </div>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="d-flex align-items-start align-items-center ms-5">
+              <div class="offcanvas-profile-img me-3" style="background-image: url('components/img/FSG.jpeg');"></div>
+              <div class="offcanvas-profile me-3">
+                  <h5 class="mb-1">Fikri si Gaptek</h5>
+                  <div class="status mb-1">
+                      <span>Rakyat Sipil</span>
+                  </div>
+                  <div class="balance">
+                    <span>Your balance: 4.90$</span>
+                </div>
+              </div>
+          </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Notifications
+                    <span class="badge rounded-pill bg-danger">
+                      99+
+                      <span class="visually-hidden">unread notifications</span>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Messages
+                    <span class="badge rounded-pill bg-danger">
+                      99+
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Transaction History</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container mt-5 pt-5">
+        <h3 class="mt-4">Notifikasi</h3>
+        <!-- Kartu notifikasi pertama -->
+        <div class="notification-card">
+          <div class="notification-title">Permintaan Konsultasi Hukum Baru</div>
+          <div class="notification-message">Anda memiliki permintaan baru dari M Zaqi Fathurrahman untuk nasihat hukum mengenai hak properti.</div>
+          <div class="notification-time">5 menit yang lalu</div>
+        </div>
+        <!-- Kartu notifikasi kedua -->
+        <div class="notification-card">
+          <div class="notification-title">Tinjauan Dokumen Selesai</div>
+          <div class="notification-message">Tinjauan dokumen Anda telah selesai dengan sukses.</div>
+          <div class="notification-time">15 menit yang lalu</div>
+        </div>
+        <!-- Kartu notifikasi ketiga -->
+        <div class="notification-card">
+          <div class="notification-title">Pembayaran Diterima</div>
+          <div class="notification-message">Pembayaran sebesar $50 telah diterima untuk konsultasi Anda baru-baru ini.</div>
+          <div class="notification-time">30 menit yang lalu</div>
+        </div>
+        <!-- Kartu notifikasi keempat -->
+        <div class="notification-card">
+          <div class="notification-title">Pesan Baru dari Tim Hukum</div>
+          <div class="notification-message">Tim hukum Anda telah mengirimkan pesan mengenai kasus terakhir Anda.</div>
+          <div class="notification-time">1 jam yang lalu</div>
+        </div>
+        <!-- Kartu notifikasi kelima -->
+        <div class="notification-card">
+          <div class="notification-title">Pengingat Konsultasi Mendatang</div>
+          <div class="notification-message">Jangan lupa konsultasi Anda dengan Jane Smith besok pukul 15:00.</div>
+          <div class="notification-time">2 jam yang lalu</div>
+        </div>
+      </div>
+</body>
+</html>
+</html>

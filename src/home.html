@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegalHelp - Home</title>
+    <link rel="stylesheet" href="pages/css/homestyle.css">
+    <link rel="stylesheet" href="pages/css/addition/navbar.css">
+    <link rel="stylesheet" href="pages/css/addition/sliding-menu.css">
+    <link rel="stylesheet" href="../bootsrap/css/bootstrap.css">
+    <script src="../bootsrap/js/bootstrap.js"></script>
+</head>
+<body style="background-color: #E3E0CD;">
+  <!-- Navbar -->
+  <nav class="navbar fixed-top" style="background-color: #387478;">
+    <div class="d-flex justify-content-between" id="judulNav">
+      <div class="d-flex align-items-center" >
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="border: none; margin-left: 1rem; color: #387478;">
+          <span class="navbar-toggler-icon navbar-dark"></span>
+        </button>
+        <h2>LegalHelp.</h2>
+      </div>
+      <div class="listNav align-items-center">
+        <ul class="navbar-nav ms-auto list-group-horizontal navbar-dark">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="consult.html">Consult</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="forum.html">Forum</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="LegalPedia.html">LegalPedia</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Offcanvas Menu / Hamburger Menu -->
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-backdrop="static">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="d-flex align-items-start align-items-center ms-5">
+          <div class="offcanvas-profile-img me-3" style="background-image: url('../components/img/FSG.jpeg');"></div>
+          <div class="offcanvas-profile me-3">
+            <h5 class="mb-1">Fikri si Gaptek</h5>
+            <div class="status mb-1">
+              <span>Rakyat Sipil</span>
+            </div>
+            <div class="balance">
+              <span>Your balance: 4.90$</span>
+            </div>
+          </div>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Notifications
+                <span class="badge rounded-pill bg-danger">
+                  99+
+                  <span class="visually-hidden">unread notifications</span>
+                </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sidebar-link" data-bs-toggle="modal" data-bs-target="#chatModal">
+                Messages
+                <span class="badge rounded-pill bg-danger">
+                  99+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Transaction History</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="modal fade" id="chatModal" tabindex="-1" aria-labelledby="chatModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 900px;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="chatModalLabel">Messages</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-0 h-100">
+            <div class="col-4 chat-list">
+              <div class="chat-message d-flex gap-3 active">
+                <div class="chat-avatar"></div>
+                <div class="flex-grow-1">
+                  <div class="message-name">Free Chatbot</div>
+                  <div class="message-preview">Jika benar, anda terkena pasal...</div>
+                </div>
+              </div>
+              <div class="chat-message d-flex gap-3">
+                <div class="chat-avatar"></div>
+                <div class="flex-grow-1">
+                  <div class="message-name">Zaqie Paris Hutapea</div>
+                  <div class="message-preview">Hahaha wayolo kena penjara...</div>
+                </div>
+              </div>          
+              <div class="chat-message d-flex gap-3">
+                <div class="chat-avatar"></div>
+                <div class="flex-grow-1">
+                  <div class="message-name">Rayn si FastLearner</div>
+                  <div class="message-preview">Googling sendiri gw males ny...</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-8 chat-content">
+              <div class="messages-container">
+                <div class="d-flex justify-content-end">
+                  <div class="message-bubble">
+                    Aku baru nyuri uang mamah apakah aku salah?
+                  </div>
+                </div>      
+                <div class="d-flex">
+                  <div class="response-bubble">
+                    Jika benar, anda terkena pasal Pasal 362 KUHP yang mana Pasal ini mengatur tentang pencurian secara umum. Barang siapa mengambil barang sesuatu, yang seluruhnya atau sebagian adalah kepunyaan orang lain, dengan maksud untuk dimiliki secara melawan hukum, diancam karena pencurian dengan pidana penjara paling lama 5 tahun atau pidana denda paling banyak enam puluh rupiah.
+                  </div>
+                </div>
+              </div>
+              <div class="input-container">
+                <div class="d-flex gap-3 align-items-center">
+                  <input type="text" class="form-control" placeholder="Type anything" id="message-input">
+                  <div class="chat-avatar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="content-home">
+
+  <div id="carouselExampleCaptions" class="carousel slide" style="margin-top: 60px; ;" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="../components/img/background1.webp" class="d-block w-100" alt="Berita1">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h1>News Headline 1</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../components/img/background1.webp" class="d-block w-100" alt="Berita2">
+        <div class="carousel-caption d-none d-md-block text-start" id="caption-on-carousel">
+          <h1>News Headline 2</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../components/img/background1.webp" class="d-block w-100" alt="Berita3">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h1>News Headline 3</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../components/img/background1.webp" class="d-block w-100" alt="Berita4">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h1>News Headline 4</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../components/img/background1.webp" class="d-block w-100" alt="Berita5">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h1>News Headline 5</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Top Konsultan -->
+  <div class="below-carousel">
+    <div class="text-center">
+      <h2 style="margin-top: 2rem;">Weekly Top Legal Consultant</h2>
+      <div class="container" style="margin: 3.5rem 2rem 2rem 0;">
+        <div class="row justify-content-evenly">
+          <div class="col-4 text-center">
+            <h2 class="text-start">#2</h2>
+            <div class="isiKonsul">
+              <img src="../components/img/FH.jpeg" alt="Fadhil-Hasibuan" class="img-thumbnail rounded-circle" style="height: 12rem; width: 12rem;">
+              <h3>Fadhil Hasibuan</h3>
+              <p class="text-body-secondary">
+                Experienced 30+ years lawyer | Graduated from Harvard Law School | Crazy Rich Indramayu | 21 years old
+              </p>
+              <button type="button" class="btn btn-outline-success">
+                Consult Now!
+              </button>
+            </div>
+          </div>
+          <div class="col-4 text-center">
+            <h2 class="text-start">#1</h2>
+            <div class="isiKonsul">
+              <img src="../components/img/ZPH.jpeg" alt="Zaqie-Paris-Hutapea" class="img-thumbnail rounded-circle" style="height: 250px; width: 250px;">
+              <h3>Zaqie Paris Hutapea</h3>
+              <p class="text-body-secondary">
+                Experienced 30+ years lawyer | Graduated from Harvard Law School | Crazy Rich Indramayu | 21 years old
+              </p>
+              <button type="button" class="btn btn-outline-success">
+                Consult Now!
+              </button>
+            </div>
+          </div>
+          <div class="col-4 text-center">
+            <h2 class="text-start">#3</h2>
+            <div class="isiKonsul">
+              <img src="../components/img/FN.jpeg" alt="Fadjar-Nasution" class="img-thumbnail rounded-circle" style="height: 200px; width: 200px;">
+              <h3>Fadjar Nasution</h3>
+              <p class="text-body-secondary">
+                Experienced 30+ years lawyer | Graduated from Harvard Law School | Crazy Rich Indramayu | 21 years old
+              </p>
+              <button type="button" class="btn btn-outline-success">
+                Consult Now!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top: 3rem;">
+        <a href="consult.html" class="custom-link fw-semibold fs-5" style="text-decoration: none;">Discover More ➜</a>
+      </div>
+    </div>
+  
+    <!-- Trending Topics -->
+    <div class="container" style="margin-top: 6rem;">
+      <h2 class="fw-bold text-center" style="margin-bottom: 2.5rem;">#TRENDINGTOPICS</h2>
+      <div class="trending-content">
+        <div class="trending-card">
+          <div class="d-flex align-items-start">
+            <div class="profile-img me-3"></div>
+            <div>
+              <h5 class="mb-1">Fikri si ramah tamah</h5>
+              <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,nostrud... <a href="#" class="more-link">more</a></p>
+              <div class="stats">
+                <span class="me-3">177 shares</span>
+                <span class="me-3">6354 comments</span>
+                <span>321737652 likes</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="trending-card">
+          <div class="d-flex align-items-start">
+            <div class="profile-img me-3"></div>
+            <div>
+              <h5 class="mb-1">Rayn si Fast Learner</h5>
+              <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,nostrud... <a href="#" class="more-link">more</a></p>
+              <div class="stats">
+                <span class="me-3">177 shares</span>
+                <span class="me-3">6354 comments</span>
+                <span>321737652 likes</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="trending-card">
+          <div class="d-flex align-items-start">
+            <div class="profile-img me-3"></div>
+            <div>
+              <h5 class="mb-1">Agung si Soft Spoken</h5>
+              <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,nostrud... <a href="#" class="more-link">more</a></p>
+              <div class="stats">
+                <span class="me-3">177 shares</span>
+                <span class="me-3">6354 comments</span>
+                <span>321737652 likes</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+  
+  </div>
+  <!-- Footer -->
+  <footer class="container-fluid">
+    <div>
+      <p>&copy; 2023 Anak Kebanyakan Alpa. All rights reserved.</p>
+    </div>
+    <div>
+      <a href="#about">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
+</body>
+</html>

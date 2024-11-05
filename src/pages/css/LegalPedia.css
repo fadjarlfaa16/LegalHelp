@@ -1,0 +1,33 @@
+.content-legalpedia {
+    padding: 35px 2%;
+    width: 80%;
+    margin: 40px auto;
+    background-color: #fff;
+}
+
+.content-legalpedia h2 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.content-legalpedia ul{
+
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+.keywords {
+    color: #555;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.post-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+

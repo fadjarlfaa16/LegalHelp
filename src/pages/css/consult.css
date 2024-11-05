@@ -1,0 +1,33 @@
+.content-consult {
+    padding: 30px 2%;
+    width: 80%;
+    margin: 60px auto;
+    background-color: #fff;
+}
+.search-bar {
+    margin-top: 20px;
+}
+
+#search-section {
+    padding: 0 10%;
+}
+
+.card-text {
+    font-size: 14px;
+}
+.btn-primary {
+    background-color: #e0f7f6;
+    color: #2e6665;
+    border: 1px solid #2e6665;
+}
+.footer-banner {
+    background-color: #2e6665;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-banner .btn {
+    background-color: white;
+    color: #2e6665;
+    border: 1px solid #2e6665;
+}

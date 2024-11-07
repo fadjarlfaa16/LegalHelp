@@ -1,91 +1,74 @@
-/* .content-forum {
-    margin: 90px 3rem;
-}
-
-.popular-tag {
-    margin-left: -2rem;
-
-}
-
-.popular-tag li {
-    list-style: none;
-}
-
-.popular-tag li a {
-    text-decoration: none;
-} */
-
 .keywords li {
-    margin-left: -2rem;
-    list-style: none;
+  margin-left: -2rem;
+  list-style: none;
 }
 
 .content-forum {
-    padding: 35px 2%;
-    width: 80%;
-    margin: 40px auto;
-    background-color: #fff;
+  padding: 35px 2%;
+  width: 80%;
+  margin: 40px auto;
+  background-color: #fff;
 }
 .content-forum h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .navbar-brand {
-    font-weight: bold;
+  font-weight: bold;
 }
 .keywords {
-    color: #555;
-    font-size: 0.9em;
-    margin-bottom: 20px;
+  color: #555;
+  font-size: 0.9em;
+  margin-bottom: 20px;
 }
 .post-card {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 15px;
-    margin-bottom: 20px;
-    background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
 }
 .post-card .profile-picture {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #ccc;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ccc;
 }
 .post-card .username {
-    font-weight: bold;
+  font-weight: bold;
 }
 .post-card .time-posted {
-    color: #999;
-    font-size: 0.8em;
+  color: #999;
+  font-size: 0.8em;
 }
 .post-card .post-content {
-    margin-top: 10px;
-    color: #333;
+  margin-top: 10px;
+  color: #333;
 }
 .post-card .likes-comments {
-    font-size: 0.9em;
-    color: #999;
-    margin-top: 5px;
+  font-size: 0.9em;
+  color: #999;
+  margin-top: 5px;
 }
 .post-card .post-actions {
-    margin-top: 10px;
-    font-size: 0.9em;
+  margin-top: 10px;
+  font-size: 0.9em;
 }
 .post-actions i {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 .add-post-btn {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    background-color: #28a745;
-    border-radius: 50%;
-    color: white;
-    font-size: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #28a745;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }

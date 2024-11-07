@@ -1,17 +1,17 @@
 .notification-card {
-    border: 1px solid #ddd;
-    border-radius: 5px; 
-    margin-bottom: 15px; 
-    padding: 15px; 
-    background-color: #f8f9fa; 
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #f8f9fa;
 }
 .notification-title {
-    font-weight: bold; 
+  font-weight: bold;
 }
 .notification-message {
-    margin: 5px 0; 
+  margin: 5px 0;
 }
 .notification-time {
-    font-size: 0.8rem; 
-    color: gray; 
+  font-size: 0.8rem;
+  color: gray;
 }

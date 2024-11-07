@@ -10,11 +10,12 @@
     <script src="pages/script/index.js"></script>
     <link rel="stylesheet" href="../bootsrap/css/bootstrap.css">
     <script src="../bootsrap/js/bootstrap.js"></script>
+    <script src="../node_modules/typed.js/dist/typed.umd.js"></script>
 </head>
 <body>
     <div class="container">
         <div class="content">
-            <div class="slogan">Protect your life from legals violation.</div>
+            <div class="slogan">Protect your life from <span id="element"></span></div>
             <a href="#" class="start" id="start">Get Started →</a>
         </div>
         <div class="reg" id="reg">
@@ -71,5 +72,14 @@
             </form>
         </div>
     </div>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ["legals violation", "jail"],
+          typeSpeed: 50,
+          backSpeed: 50,
+          loop: true,
+          loopCount: Infinity,
+        });
+      </script>
 </body>
 </html>

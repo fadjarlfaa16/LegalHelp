@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar fixed-top" style="background-color: #387478;">
+<div class="d-flex" id="judulNav">
+        <div class="d-flex align-items-center" >
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="border: none; margin-left: 1rem; color: #387478;">
+            <span class="navbar-toggler-icon navbar-dark"></span>
+          </button>
+          <h2>LegalHelp.</h2>
+        </div>
+        <div class="listNav align-items-center">
+          <ul class="navbar-nav ms-auto list-group-horizontal navbar-dark">
+            <li class="nav-item">
+              <a class="nav-link home" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link consult" href="consult.html">Consult</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link forum" href="forum.html">Forum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link legalpedia" href="LegalPedia.html">LegalPedia</a>
+            </li>
+          </ul>
+        </div>
+  
+        <!-- Offcanvas Menu / Hamburger Menu -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-backdrop="static">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="d-flex align-items-start align-items-center ms-5">
+            <div class="offcanvas-profile-img me-3" style="background-image: url('../components/img/FSG.jpeg');"></div>
+            <div class="offcanvas-profile me-3">
+              <h5 class="mb-1">Fikri si Gaptek</h5>
+              <div class="status mb-1">
+                <span>Rakyat Sipil</span>
+              </div>
+              <div class="balance">
+                <span>Your balance: 4.90$</span>
+              </div>
+            </div>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="notificationpage.html">
+                  Notifications
+                  <span class="badge rounded-pill bg-danger">
+                    99+
+                    <span class="visually-hidden">unread notifications</span>
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link sidebar-link" data-bs-toggle="modal" data-bs-target="#chatModal" style="cursor: pointer;">
+                  Messages
+                  <span class="badge rounded-pill bg-danger">
+                    99+
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+                </a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="transactionhistory.html">Transaction History</a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </nav>
+</body>
+</html>

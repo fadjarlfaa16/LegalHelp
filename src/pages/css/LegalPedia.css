@@ -1,0 +1,58 @@
+.content-legalpedia {
+  padding: 35px 2%;
+  width: 80%;
+  margin: 40px auto 0;
+  background-color: #fff;
+}
+
+.content-legalpedia h2 {
+  text-align: center;
+  font-weight: 500;
+}
+
+/* .content-legalpedia ul{
+
+} */
+
+.navbar-brand {
+  font-weight: bold;
+}
+.keywords {
+  color: #555;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+.post-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+@media (min-width: 400px) and (max-width: 599px) {
+  .content-legalpedia {
+    width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 600px) and (max-width: 799px) {
+  .content-legalpedia {
+    width: 90%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 800px) and (max-width: 1279px) {
+  .content-legalpedia {
+    width: 85%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .content-legalpedia {
+    width: 80%;
+  }
+}
